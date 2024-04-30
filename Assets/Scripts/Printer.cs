@@ -8,8 +8,8 @@ public class Printer : MonoBehaviour
     {
         Debug.Log(BarHandler.BarName);
         
-        Debug.Log(BarHandler.KegCount);
+        Debug.Log(BarHandler.DrinkCount);
         BarHandler.SellDrink();
-        Debug.Log(BarHandler.KegCount);
+        Debug.Log(BarHandler.DrinkCount);
     }
 }
