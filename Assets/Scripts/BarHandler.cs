@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 
-public class BarHandler
+public static class BarHandler
 {
-    public string BarName { get; set; } = "TestName";
+    public static string BarName { get; set; } = "TestName";
 }
