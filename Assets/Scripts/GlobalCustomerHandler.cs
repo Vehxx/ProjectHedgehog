@@ -5,6 +5,7 @@ using UnityEngine;
 public class GlobalCustomerHandler : MonoBehaviour
 {
     public List<Customer> customers { get; set; }
+
     // Start is called before the first frame update
     void Start()
     {
